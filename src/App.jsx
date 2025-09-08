@@ -1,6 +1,7 @@
 import { ScrollTrigger, SplitText } from "gsap/all";
 import "./index.css";
 import gsap from "gsap";
+import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 import Art from "./components/Art";
 import Cocktails from "./components/Cocktails";
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Art />
         <Menu />
+        <Contact />
       </main>
     </>
   );
